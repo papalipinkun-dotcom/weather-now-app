@@ -1,0 +1,20 @@
+{
+  "appId": "com.heatguard.app",
+  "appName": "HeatGuard",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "http",
+    "cleartext": true
+  },
+  "android": {
+    "adjustMarginsForEdgeToEdge": "auto"
+  },
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    },
+    "LocalNotifications": {
+      "smallIcon": "ic_launcher_foreground"
+    }
+  }
+}
